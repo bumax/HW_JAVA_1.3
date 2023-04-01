@@ -7,7 +7,7 @@ import java.util.List;
 
 // Реализовать алгоритм сортировки слиянием
 public class Ex1 {
-    private static List<Integer> MergeSort(List<Integer> inList) {
+    public static List<Integer> MergeSort(List<Integer> inList) {
 
         if (inList.size() <= 1) return inList; // Условия выхода из рекурсии
 

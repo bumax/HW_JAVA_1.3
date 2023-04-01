@@ -17,6 +17,9 @@ public class Main {
             case 3:
                 Ex3.GetListStat(30);
                 break;
+            case 4:
+                Ex4.Run();
+                break;
         }
     }
 }
